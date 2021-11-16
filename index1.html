@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   <title>Document</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: roboto;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 16px 30px;
+    }
+    nav ul li a {
+        text-decoration: none;
+       color: #fff;
+       font-size: 16px;  
+    }
+    header{
+        background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)),url(images/c1.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    nav{
+        position: fixed;
+        width: 100%;
+        line-height: 40px;
+    }
+    nav ul{
+        float: right;
+        margin: 0;
+        padding-right: 42px;
+    }
+
+    p{
+        text-align: justify;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .products{
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+       
+    }
+    .products_spacing{
+        background-color: black;
+
+        padding: 10% 0 10% 0;
+        
+    }
+    h1{
+      text-align: center;
+      font-size: 90px;
+      color: cornsilk;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-top: 0;
+      padding-top: 350px;
+      justify-content: center;
+      position: relative;
+    }
+    nav.navB{
+        background-color: black;
+        opacity: .5;
+    }
+    .img_product{
+        cursor: pointer;
+        border-radius: 2%;
+    }
+    .owners_page{
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+    }
+    .owners_images{
+        background-color: black;
+
+        padding: 10% 0 10% 0;
+    }
+    .contact_us_Page{
+        background-color: black;
+        width: 100%;
+        height: 100vh;
+    }
+    .contact_email{
+        background-color: black;
+
+        padding: 10% 0 10% 0;
+    }
+   /* #branches.text-center{
+        color: white;
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 15px;
+
+    } */
+</style>
+<body>
+
+    <header>
+        <nav>
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Home </a></li>
+                    <li><a href="#">Products</a> </li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>         
+        </nav>
+        <h1>APSE Coffee</h1>
+    </header>
+    <div class="products">
+       <div class="products_spacing">
+        <center>
+          <table>
+              <tr style="">
+                  <td>
+                      <div style="margin:  0px 20px 20px 0px;">
+                        <img class="img_product" id="branches" src="images/c1.jpg" alt="" style="width: 350px; height: auto; ">
+                            <div class="" id="text_branches" style="text-align: center; color: white; margin-bottom: 10px; background-color: transparent; font-size: 20px;" hidden> Branches</div> 
+                        </img>
+                     </div>
+                  </td>
+                  <td>
+                    <img class="img_product" id="coffee" src="images/c3.jpg" alt="" style="width: 350px; height: auto; margin: 0px 20px 20px 0px;">
+                    <div class="" id="text_coffee" style="text-align: center; color: white; margin-bottom: 10px; background-color: transparent; font-size: 20px;" hidden> Coffee</div> 
+                </img>
+ 
+                  </td>
+                  <td rowspan="2">
+                    <img class="img_product" id="explore" src="images/c2.jpg" alt="" style="width: 350px; height: 420px;" >
+                    <div class="" id="text_explore" style="text-align: center; color: white; margin-bottom: 10px; background-color: transparent;font-size: 30px;" hidden>Latest Uploads</div> 
+                </img>
+ 
+                  </td>
+              </tr>
+              <tr>
+                <td>
+                    <img class="img_product" id="tea" src="images/c4.jpg" alt="" style="width: 350px; height: auto;">
+                    <div class="" id="text_tea" style="text-align: center; color: white; margin-bottom: 10px; background-color: transparent;font-size: 20px;" hidden> Tea</div> 
+                </img>
+ 
+                </td>
+                <td>
+                  <img class="img_product" id="other" src="images/c5.jpg" alt="" style="width: 350px; height: auto;">
+                  <div class="" id="text_other" style="text-align: center; color: white; margin-bottom: 10px; background-color: transparent; font-size: 20px;" hidden> Other</div> 
+                </img>
+ 
+                </td>
+               
+            </tr>
+          </table>
+        </center>
+       </div>
+    <div class="owners_page">
+        <div class="owners_images">
+            <center>
+                <table>
+                    <tr>
+                        <td>
+                            <div style="margin-left: 20px;">
+                                <img src="images/owner/jp.jpg" alt="" style="width: 200px; height: auto;border-radius: 50%;">
+                            </div>
+                         <td>
+                        <div style="margin-left: 20px;">
+                            <img src="images/owner/melags.jpg" alt="" style="width: 200px; height: auto; border-radius: 50%;">
+                        </div></td>   
+                            <td>
+                        <div style="margin-left: 20px;">
+                                <img src="images/owner/ja.jpg" alt="" style="width: 200px; height: auto; border-radius: 50%; ">
+                        </div> </td>
+                            <td>
+                                <div style="margin-left: 20px;">
+                                    <img src="images/owner/diana.jpg" alt="" style="width: 200px; height: auto; border-radius: 50%;">
+                                </div>
+                            </td>
+                          
+                            
+                        </td>
+                    </tr>
+                    
+                </table>
+            </center>
+
+        </div>
+    </div>
+    <div class="contact_us_Page">
+        <center>
+            <div class="contact_email">
+                <form action="">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Last Name">
+                    <button type="button" id="btnSend">Send</button>
+                </form>
+            </div>
+        </center>
+    </div>
+    </div>
+</body>
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btnSend").click(function(){
+                (function() {
+                emailjs.init("user_1eOydHwa6qSYoneNWWitI");
+                })();
+
+                var templateParams = {
+                        name: 'James',
+                        notes: 'Check this out!'
+                    };
+                    
+                    emailjs.send('service_pd74xeg', 'template_9692adq', templateParams)
+                        .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                        }, function(error) {
+                    console.log('FAILED...', error);
+                });
+            });
+            
+        });
+              
+    </script>
+    <script>
+   $(window).on("scroll", function(){
+           if($(window).scrollTop()){
+               $("nav").addClass("navB");
+           }
+           else{
+              $("nav").removeClass("navB");
+           }
+       });
+    $(document).ready(function(){
+        $("#branches").mouseover(function(){
+            $(this).fadeTo("fast", 0.5);
+            $("#text_branches").show("fast");
+        });
+        $("#branches").mouseleave(function(){
+            $(this).css({"opacity": "1"});
+            $("#text_branches").hide("slow");
+        });
+        $("#coffee").mouseover(function(){
+            $(this).fadeTo("fast", 0.5);
+            $("#text_coffee").show("fast");
+        });
+        $("#coffee").mouseleave(function(){
+
+            $(this).css({"opacity": "1"});
+            $("#text_coffee").hide("slow");
+        });
+        $("#tea").mouseover(function(){
+            $(this).fadeTo("fast", 0.5);
+            $("#text_tea").show("fast");
+        });
+        $("#tea").mouseleave(function(){
+
+            $(this).css({"opacity": "1"});
+            $("#text_tea").hide("slow");
+        });
+        $("#explore").mouseover(function(){
+            $(this).fadeTo("fast", 0.5);
+            $("#text_explore").show("fast");
+        });
+        $("#explore").mouseleave(function(){
+
+            $(this).css({"opacity": "1"});
+            $("#text_explore").hide("slow");
+        });
+        $("#other").mouseover(function(){
+            $(this).fadeTo("fast", 0.5);
+            $("#text_other").show("fast");
+        });
+        $("#other").mouseleave(function(){
+
+            $(this).css({"opacity": "1"});
+            $("#text_other").hide("slow");          
+        });
+        $(".img_product").mouseout(function(){
+            $(".img_product").css({"opacity": "1"});
+        });
+        $(".products_spacing").click(function(){
+            $(".img_product").css({"opacity": "1"});
+        });
+    });
+
+    </script>
+</html>
